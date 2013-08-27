@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap/bootstrap.css")
+    @Scripts.Render("~/Content/site.css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/bootstrap.js")
 </head>
-<body>
+<body style="background-color: #c0c0c0">
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
